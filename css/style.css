@@ -17,3 +17,11 @@ body{
     color: var(--cor-primaria) !important;
     border-radius: 5px;
 }
+
+section{
+    background-color: var(--cor-primaria-suave);
+}
+
+#sobre-mim-p a{
+    color: var(--cor-destaque);
+}
