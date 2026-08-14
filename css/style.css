@@ -6,6 +6,7 @@ body{
 }
 
 /* Hover do link-nav e o botão do header */
+
 .link-nav, .btn-destaque:hover{
     transition: transform 0.3s ease;
     display: inline-block;
@@ -18,10 +19,26 @@ body{
     border-radius: 5px;
 }
 
-section{
+/* Estilização da section sobre mim */
+
+#sobre-mim{
     background-color: var(--cor-primaria-suave);
 }
 
 #sobre-mim-p a{
     color: var(--cor-destaque);
+}
+
+/* Estilização da section sobre mim */
+
+.tech-card {
+  background-color: #ffffff;
+  border: 1px solid rgba(1, 17, 66, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: scale(1.08);
+  border-color: var(--cor-destaque);
+  box-shadow: 0 8px 20px rgba(232, 163, 61, 0.25) !important;
 }
