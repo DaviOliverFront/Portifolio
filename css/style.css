@@ -48,3 +48,19 @@ body{
 #minhas-tecnologias{
     cursor: pointer;
 }
+
+/* Estilização do tamanho do card, cursor e hover */
+
+.card-projetos{
+    max-width: 20rem;
+    cursor: pointer;
+}
+
+.card-projetos {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-projetos:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(1, 17, 66, 0.25);
+}
