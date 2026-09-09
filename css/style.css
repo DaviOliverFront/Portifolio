@@ -65,3 +65,8 @@ html, body{
   transform: translateY(-8px) scale(1.03);
   box-shadow: 0 10px 20px rgba(1, 17, 66, 0.25);
 }
+
+
+.footer-heading {
+    color: var(--cor-destaque) !important; 
+}
