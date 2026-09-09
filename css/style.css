@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-/* Link da importação da font */
-body{
+/* Link da importação da font e garantia de 100% da altura*/
+html, body{
     font-family: "Outfit", sans-serif;
+    height: 100%;
 }
 
 /* Hover do link-nav e o botão do header */
